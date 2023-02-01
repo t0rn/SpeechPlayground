@@ -20,7 +20,7 @@
                                 <rect key="frame" x="16" y="318" width="176" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="Russia" title="Russia"/>
+                                <buttonConfiguration key="configuration" style="filled" image="Russia"/>
                                 <connections>
                                     <action selector="RussiaButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XRd-el-DMU"/>
                                 </connections>

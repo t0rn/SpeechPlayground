@@ -67,11 +67,20 @@ class ViewController: UIViewController {
     
     
     
-   
+    @objc func didTap() {
+               self.view.endEditing(true)
+            }
+
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+    
+       let gesture = UITapGestureRecognizer(target: self, action:#selector(didTap))
+        
+        
+                view.addGestureRecognizer(gesture)
         // Do any additional setup after loading the view.
     }
 
